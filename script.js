@@ -1,12 +1,12 @@
-// ==================== FIREBASE КОНФИГУРАЦИЯ ====================
-// !!! ВСТАВЬТЕ ВАШУ КОНФИГУРАЦИЮ ИЗ FIREBASE КОНСОЛИ !!!
+
 const firebaseConfig = {
-    apiKey: "ВАШ_API_KEY",
-    authDomain: "ВАШ_AUTH_DOMAIN",
-    projectId: "ВАШ_PROJECT_ID",
-    storageBucket: "ВАШ_STORAGE_BUCKET",
-    messagingSenderId: "ВАШ_MESSAGING_SENDER_ID",
-    appId: "ВАШ_APP_ID"
+  apiKey: "AIzaSyBTibyssRECMbEuTlCJWBqTWUTI_vhetFA",
+  authDomain: "eduaipro-546b7.firebaseapp.com",
+  projectId: "eduaipro-546b7",
+  storageBucket: "eduaipro-546b7.firebasestorage.app",
+  messagingSenderId: "184005321510",
+  appId: "1:184005321510:web:537c974f4bfa9040e997e7",
+  measurementId: "G-89Y5P1WR9T"
 };
 
 // Инициализация Firebase
