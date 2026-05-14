@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduAI - Курсы</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-50">
+    <nav class="fixed top-0 w-full bg-white shadow-md z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center space-x-2">
+                    <div class="w-10 h-10 gradient-bg rounded-lg flex items-center justify-center"><i class="fas fa-brain text-white text-xl"></i></div>
+                    <span class="text-2xl font-bold gradient-text">EduAI</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-gray-700 hover:text-purple-600 transition">Главная</a>
+                    <a href="courses.html" class="text-purple-600 font-medium">Курсы</a>
+                    <a href="features.html" class="text-gray-700 hover:text-purple-600 transition">Возможности</a>
+                    <a href="about.html" class="text-gray-700 hover:text-purple-600 transition">О нас</a>
+                </div>
+                <div class="flex items-center space-x-4" id="authButtons"></div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="pt-16 min-h-screen">
+        <section class="py-20 bg-gradient-to-b from-purple-50 to-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h1 class="text-5xl font-bold mb-4">Наши <span class="gradient-text">курсы</span></h1>
+                    <p class="text-xl text-gray-600">8+ курсов по программированию, базам данных, веб-разработке и школьным предметам</p>
+                </div>
+                
+                <div id="coursesGrid" class="grid md:grid-cols-3 gap-8"></div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Auth Modals -->
+    <div id="loginModal" class="hidden fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4">...</div>
+    <div id="registerModal" class="hidden fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4">...</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
