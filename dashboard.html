@@ -13,10 +13,12 @@
     <nav class="fixed top-0 w-full bg-white shadow-md z-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
-                <div class="flex items-center space-x-2">
-                    <div class="w-10 h-10 gradient-bg rounded-lg flex items-center justify-center"><i class="fas fa-brain text-white text-xl"></i></div>
-                    <span class="text-2xl font-bold gradient-text">EduAI</span>
-                </div>
+                <a href="index.html" class="flex items-center space-x-2 hover:opacity-80 transition">
+    <div class="w-10 h-10 gradient-bg rounded-lg flex items-center justify-center">
+        <i class="fas fa-brain text-white text-xl"></i>
+    </div>
+    <span class="text-2xl font-bold gradient-text">EduAI</span>
+</a>
                 <div class="hidden md:flex items-center space-x-8">
                     <a href="index.html" class="text-gray-700 hover:text-purple-600 transition">Главная</a>
                     <a href="courses.html" class="text-gray-700 hover:text-purple-600 transition">Курсы</a>
@@ -84,6 +86,9 @@
         </div>
     </div>
 
-    <script src="script.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore-compat.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
